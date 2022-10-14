@@ -1,5 +1,6 @@
 import {React} from 'react'
 import Home from './Pages/home'
+import Workouts from './Pages/workouts'
 import Banner from './Components/banner'
 import Navbar from './Components/navbar'
 import Footer from './Components/footer'
@@ -21,8 +22,8 @@ const App = () => {
                             {/* <p style={{height: '10vh'}} /> */}
                             <Routes>
                                 <Route index element={<Home />} />
-                                {/* <Route path='about' element={(<About/>)} />
-                                <Route path='songs' element={(<Songs/>)} />
+                                /* <Route path='workouts' element={(<Workouts/>)} />
+                                {/* <Route path='songs' element={(<Songs/>)} />
                                 <Route path='Movies' element={(<History/>)} /> */}
                                 {/* <Route path='VideoGames' element={(</>)} /> */}
                             </Routes>
